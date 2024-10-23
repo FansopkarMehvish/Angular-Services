@@ -9,7 +9,7 @@ import { TasksService } from './tasks.service';
   standalone: true,
   templateUrl: './tasks.component.html',
   imports: [NewTaskComponent, TasksListComponent],
-  providers: [TasksService]
+  // providers: [TasksService]
   // All child components will have access but not others
 })
 export class TasksComponent {}
